@@ -313,3 +313,64 @@ header .burger_icon {
    border-radius: var(--btn-radius);
    background-color: var(--light-bg);
 }
+
+.col-body {
+   padding: .5rem;
+   width: 100%;
+}
+
+.col-body .rating-icon {
+   font-size: var(--font-sm);
+}
+
+.col-body .rating-icon .fa-star {
+   color: #ffd700;
+}
+
+.col-body .sub-heading {
+   font-size: var(--font-sm);
+   color: var(--primar-clr);
+}
+
+.col-body .col-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: var(--m-sm);
+}
+
+.col-body .col-footer button {
+   width: 100px;
+   height: 36px;
+   font-size: var(--font-sm);
+}
+
+
+
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+   width: 10px;
+ }
+ ::-webkit-scrollbar-thumb {
+   background: rgba(85, 60, 154, 0.3);
+   border-radius: 10px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+ }
+ ::-webkit-scrollbar-track {
+   background-color: #301934;
+   border: 5px solid #301934;
+ }
+ ::-webkit-scrollbar-button {
+   background-color: #301934;
+   background-repeat: no-repeat;   
+   background-size: 100%;
+   background-position: center;
+  }
+ ::-webkit-scrollbar-button:decrement {
+   background-image: url("/img/logo2.png");   
+  }
+ ::-webkit-scrollbar-button:increment {
+   background-image: url("/img/logo2.png"); 
+ }
