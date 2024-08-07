@@ -22,6 +22,9 @@ a {
 h1,h2,h3,h4,h5,h6,p,a {
    font-family: 'poppins';
 }
+h1,h2,h3,h4,h5,h6 {
+   color: var(--primar-clr);
+}
 
 p {
    color: var(--primar-clr);
@@ -298,4 +301,15 @@ header .burger_icon {
    width: 200px;
    height: 44px;
    border-radius: 30px;
+}
+
+/* new arrival section */
+.arrival .col {
+   border-radius: var(--card-rad);
+   padding: var(--p-sm);
+}
+
+.arrival .col figure {
+   border-radius: var(--btn-radius);
+   background-color: var(--light-bg);
 }
