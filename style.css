@@ -220,7 +220,7 @@ header .nav {
 }
 
 header .nav .logo {
-   font-size: var(--font-md);
+   font-size: 1.5rem;
    text-transform: uppercase;
    font-weight: bold;
    font-style: oblique;
@@ -343,6 +343,43 @@ header .burger_icon {
    width: 100px;
    height: 36px;
    font-size: var(--font-sm);
+}
+
+/* About Us Section */
+.about .wrapper {
+   z-index: 100;
+}
+
+.about .col-text .sub-heading {
+   color: var(--first-gra-clr);
+}
+
+.about .col-text .about-text {
+   font-size: .9rem;
+   margin: var(--m-md);
+}
+
+.about .col-text .btn {
+   width: 120px;
+   height: 40px;
+   font-size: var(--font-sm);
+   margin: var(--m-t-b);
+}
+
+.get-off {
+   width: 180px;
+   padding: var(--p-sm);
+   background-color: var(--light-bg);
+   border-radius: var(--btn-radius);
+   backdrop-filter: blur(10px);
+   bottom: 230px;
+   position: absolute;
+   left: 40px;
+}
+
+.get-off p {
+   word-break: break-all;
+   font-size: .7rem;
 }
 
 
