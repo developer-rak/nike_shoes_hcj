@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-   color: var(--primar-clr);
+   color: var(--primar-clr-light);
 }
 
 body {
@@ -53,15 +53,15 @@ body {
 
    /* color */
    --primar-clr: #fff;
-   --primar-clr: #dedede;
+   --primar-clr-light: #dedede;
    --first-gra-clr: #c32bfb;
    --second-gra-clr: #f818d2;
    --dark-clr: #12011b;
    --light-bg: #ffffff19;
 
    /* gradient clr */
-   --gra-white: linear-gradient(45deg, #fff, #dedede);
-   --gra-primary: linear-gradient(45deg, #c32bfb, #f818d2);
+   --gra-white : linear-gradient(45deg, #fff, #dedede);
+   --gra-primary:linear-gradient(45deg, #c32bfb, #f818d2);
 
    /* font-size */
    --font-sm: .8rem;
@@ -289,7 +289,7 @@ header .burger_icon {
 
 .col-img .hero-img-off p {
    font-size: var(--font-sm);
-   color: var(--primar-clr);
+   color: var(--primar-clr-light);
 }
 
 .col-img .hero-img-off h3 {
@@ -329,7 +329,7 @@ header .burger_icon {
 
 .col-body .sub-heading {
    font-size: var(--font-sm);
-   color: var(--primar-clr);
+   color: var(--primar-clr-light);
 }
 
 .col-body .col-footer {
@@ -380,6 +380,49 @@ header .burger_icon {
 .get-off p {
    word-break: break-all;
    font-size: .7rem;
+}
+
+/* Our Best Collection */
+.collection .grid-wrapper {
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+   gap: 30px;
+   padding: 0 30px;
+   width: 1280px;
+}
+
+.collection .grid-wrapper .col {
+   background-color: var(--light-bg);
+   border: 2px solid rgba(220, 35, 186, 0.386);
+   /* border: 2px solid var(--gra-primary); */
+   border-radius: var(--card-rad);
+}
+
+.collection .btn-col.btn {
+   color: var(--primar-clr);
+}
+.collection .btn-col.btn:hover {
+   background-color: var(--primar-clr);
+   color: var(--dark-clr);
+}
+
+.collection .btn-col {
+   margin-right: 5px;
+   border: none;
+   outline: none;
+   border: 1px solid var(--first-gra-clr);
+   background-color: transparent;
+   color: var(--first-gra-clr);
+   width: 120px;
+   height: 44px;
+   border-radius: var(--btn-radius);
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: var(--transition-one);
+}
+
+.hide {
+   display: none;
 }
 
 
