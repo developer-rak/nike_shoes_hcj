@@ -425,6 +425,53 @@ header .burger_icon {
    display: none;
 }
 
+/* Testimonial */
+.testimonial .wrapper {
+   gap: 30px;
+   align-items: center;
+}
+
+.testimonial figure {
+   width: 80px;
+   height: 80px;
+}
+
+.testimonial .col {
+   align-items: center;
+   text-align: center;
+   gap: 30px;
+   padding: 1.2rem 1.4rem;
+   border-radius: var(--btn-radius);
+   background-color: var(--light-bg);
+   backdrop-filter: blur(10px);
+   z-index: 200;
+}
+
+.testimonial .col p {
+   font-size: var(--font-sm);
+   word-break: break-all;
+}
+
+.testimonial .col h3 {
+   color: var(--first-gra-clr);
+}
+
+.testimonial .fa-star {
+   color: #ffd700;
+   margin-right: 4px;
+}
+/* .testimonial .wrapper figure {
+   width: 150px;
+   height: 150px;
+} */
+
+.testimonial .wrapper figure img {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
 
 
 
