@@ -34,6 +34,14 @@ body {
    background-color: var(--dark-clr);
 }
 
+.logo {
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-style: oblique;
+   color: #fff;
+}
+
 /* Variables */
 :root{
    /* padding */
@@ -509,6 +517,33 @@ header .burger_icon {
    height: 40px;
 }
 
+/* Footer */
+footer {
+   background-color: #160021;
+}
+
+footer .wrapper .logo {
+   color: var(--first-gra-clr);
+}
+
+footer .wrapper {
+   justify-content: center;
+   align-items: center;
+}
+
+footer .wrapper .col {
+   justify-self: flex-start;
+   align-self: flex-start;
+   gap: 15px;
+}
+
+footer .wrapper .col:nth-child(1) {
+   font-size: .9rem;
+}
+
+footer a:hover {
+   color: var(--first-gra-clr);
+}
 
 
 
