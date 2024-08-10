@@ -399,6 +399,10 @@ header .burger_icon {
    width: 1280px;
 }
 
+.collection .collection-item {
+   transition: var(--transition-one);
+}
+
 .collection .grid-wrapper .col {
    background-color: var(--light-bg);
    border: 2px solid rgba(220, 35, 186, 0.386);
@@ -408,6 +412,7 @@ header .burger_icon {
 
 .collection .btn-col.btn {
    color: var(--primar-clr);
+   transition: var(--transition-one);
 }
 .collection .btn-col.btn:hover {
    background-color: var(--primar-clr);
