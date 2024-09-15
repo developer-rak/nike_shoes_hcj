@@ -25,4 +25,5 @@
   - HTML5
   - CSS3
   - Font Awesome Icons
+  - AOS Animate on Scroll Library
   - Netlify
